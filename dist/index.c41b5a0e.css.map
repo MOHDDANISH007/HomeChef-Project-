@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["components/Style.module.css"],"sourcesContent":[".text{\r\n    color: red;\r\n    font-size: 30px;\r\n    font-weight: bold;\r\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n}"],"names":[],"version":3,"file":"index.c41b5a0e.css.map","sourceRoot":"/__parcel_source_root/"}
