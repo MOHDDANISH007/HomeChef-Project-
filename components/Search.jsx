@@ -2,8 +2,8 @@ import React from 'react'
 
 const Search = () => {
   return (
-    <div>
-      <h1>Search Something</h1>
+    <div style={{color: "red"}}>
+      <input type="text" placeholder="Search" />
     </div>
   )
 }

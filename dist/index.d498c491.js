@@ -34682,45 +34682,22 @@ var _searchJsx = require("./Search.jsx");
 var _searchJsxDefault = parcelHelpers.interopDefault(_searchJsx);
 const Navigation = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "navigation-container",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+            className: "navigation",
             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                className: "navigation-list",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "navigation-item logo",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: (0, _chef1SvgDefault.default),
-                            alt: "Icon Image"
+                            alt: "Icon Image",
+                            className: "navigation-icon"
                         }, void 0, false, {
                             fileName: "components/Navigaation.jsx",
-                            lineNumber: 13,
-                            columnNumber: 15
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "components/Navigaation.jsx",
-                        lineNumber: 13,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _homeChefSvgDefault.default),
-                            alt: "HomeChef Image"
-                        }, void 0, false, {
-                            fileName: "components/Navigaation.jsx",
-                            lineNumber: 14,
-                            columnNumber: 15
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "components/Navigaation.jsx",
-                        lineNumber: 14,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/",
-                            children: "Home"
-                        }, void 0, false, {
-                            fileName: "components/Navigaation.jsx",
-                            lineNumber: 15,
-                            columnNumber: 15
+                            lineNumber: 16,
+                            columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "components/Navigaation.jsx",
@@ -34728,51 +34705,85 @@ const Navigation = ()=>{
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "navigation-item brand",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: (0, _homeChefSvgDefault.default),
+                            alt: "HomeChef Image",
+                            className: "navigation-brand-image"
+                        }, void 0, false, {
+                            fileName: "components/Navigaation.jsx",
+                            lineNumber: 20,
+                            columnNumber: 13
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "components/Navigaation.jsx",
+                        lineNumber: 19,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "navigation-item",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/",
+                            className: "navigation-link",
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "components/Navigaation.jsx",
+                            lineNumber: 24,
+                            columnNumber: 13
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "components/Navigaation.jsx",
+                        lineNumber: 23,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "navigation-item",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                             to: "/about",
+                            className: "navigation-link",
                             children: "About"
                         }, void 0, false, {
                             fileName: "components/Navigaation.jsx",
-                            lineNumber: 16,
-                            columnNumber: 15
+                            lineNumber: 28,
+                            columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "components/Navigaation.jsx",
-                        lineNumber: 16,
+                        lineNumber: 27,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "navigation-item",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                             to: "/contact",
+                            className: "navigation-link",
                             children: "Contact"
                         }, void 0, false, {
                             fileName: "components/Navigaation.jsx",
-                            lineNumber: 17,
-                            columnNumber: 15
+                            lineNumber: 32,
+                            columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "components/Navigaation.jsx",
-                        lineNumber: 17,
+                        lineNumber: 31,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: [
-                            " ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _searchJsxDefault.default), {}, void 0, false, {
-                                fileName: "components/Navigaation.jsx",
-                                lineNumber: 18,
-                                columnNumber: 16
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
+                        className: "navigation-item search-bar",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _searchJsxDefault.default), {}, void 0, false, {
+                            fileName: "components/Navigaation.jsx",
+                            lineNumber: 36,
+                            columnNumber: 13
+                        }, undefined)
+                    }, void 0, false, {
                         fileName: "components/Navigaation.jsx",
-                        lineNumber: 18,
+                        lineNumber: 35,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "components/Navigaation.jsx",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 9
             }, undefined)
         }, void 0, false, {
@@ -34782,7 +34793,7 @@ const Navigation = ()=>{
         }, undefined)
     }, void 0, false, {
         fileName: "components/Navigaation.jsx",
-        lineNumber: 10,
+        lineNumber: 9,
         columnNumber: 5
     }, undefined);
 };
@@ -34851,8 +34862,12 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const Search = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-            children: "Search Something"
+        style: {
+            color: "red"
+        },
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+            type: "text",
+            placeholder: "Search"
         }, void 0, false, {
             fileName: "components/Search.jsx",
             lineNumber: 6,
